@@ -1,0 +1,24 @@
+#dropArea {
+  background: #fff;
+}
+#dropArea.dropAreaOver {
+  background: #ccc;
+}
+.wp_media .wp_media_wrap > * {
+  padding: 0 5px;
+  min-height: 99px;
+}
+.wp_media .wp_media_wrap > :nth-child(2n) {
+  background: #f4f4f4;
+}
+.wp_media img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  vertical-align: middle;
+}
+.wp_media .wp_media_done {
+  opacity: 0.5;
+}
+/*# sourceMappingURL=main.f806d36f.css.map*/
