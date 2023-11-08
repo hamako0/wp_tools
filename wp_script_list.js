@@ -33,48 +33,48 @@ try{(function(){(async $=>{
     }
   </style>`;
   let epressbs = $(`
-    <p style="font-size: 30px;">EPRESS制作補助ツール</p>
+    <p style="font-size: 30px;">制作補助ツール</p>
     <ul id="script_list">
-      <li><button id="wp_default_data_setting" data-user="yamaguchi">初期設定</button></li>
-      <li><button id="wp_drop" data-user="yamaguchi">自動投入（固定）</button></li>
-      <li><button id="wp_auto_post" data-user="yamaguchi">自動投入（投稿）</button></li>
-      <li><button id="wp_meta" data-user="yamaguchi">メタ情報自動設定</button></li>
-      <li><button id="wp_upload" data-user="yamaguchi">ファイルアップロード</button></li>
-      <li><button id="wp_contact_mail_build" data-user="yamaguchi">問い合わせメール自動生成</button></li>
-      <li><button id="wp_media" data-user="yamaguchi">メディアアップロード</button></li>
-      <li><button id="wp_mts_data_setting" data-user="yamaguchi">MTS初期設定</button></li>
-      <li><button id="wp_fastest" data-user="yamaguchi">高速化設定</button></li>
+      <li><button id="wp_default_data_setting">初期設定</button></li>
+      <li><button id="wp_drop">自動投入（固定）</button></li>
+      <li><button id="wp_auto_post">自動投入（投稿）</button></li>
+      <li><button id="wp_meta">メタ情報自動設定</button></li>
+      <li><button id="wp_upload">ファイルアップロード</button></li>
+      <li><button id="wp_contact_mail_build">問い合わせメール自動生成</button></li>
+      <li><button id="wp_media">メディアアップロード</button></li>
+      <li><button id="wp_mts_data_setting">MTS初期設定</button></li>
+      <li><button id="wp_fastest">高速化設定</button></li>
     </ul>
     `+style+`
   `);
   let epressec = $(`
     <p style="font-size: 30px; line-height: 2;">EPRESS-EC制作補助ツール</p>
     <ul id="script_list">
-      <li><button id="ex_drop" data-user="yamaguchi">DropHTML</button></li>
-      <li><button id="ex_category" data-user="yamaguchi">カテゴリデータ投入</button></li>
-      <li><button id="ex_item" data-user="yamaguchi">ダミー商品登録</button></li>
-      <li><button id="ex_upload" data-user="yamaguchi">ファイルアップロード</button></li>
-      <li><button id="ex_common" data-user="yamaguchi">メタ情報修正</button></li>
+      <li><button id="ex_drop">DropHTML</button></li>
+      <li><button id="ex_category">カテゴリデータ投入</button></li>
+      <li><button id="ex_item">ダミー商品登録</button></li>
+      <li><button id="ex_upload">ファイルアップロード</button></li>
+      <li><button id="ex_common">メタ情報修正</button></li>
     </ul>
     `+style+`
   `);
   let rook = $(`
     <p style="font-size: 30px; line-height: 2;">Rook制作補助ツール</p>
     <ul id="script_list">
-      <li><button id="image_csv_create" data-user="yamaguchi">画像csv作成</button></li>
+      <li><button id="image_csv_create">画像csv作成</button></li>
     </ul>
     `+style+`
   `);
   let seed = $(`
     <p style="font-size: 30px;">HPシードWPオプション制作補助ツール</p>
     <ul id="script_list">
-      <li><button id="wp_default_data_setting" data-user="yamaguchi">初期設定</button></li>
-      <li><button id="wp_drop" data-user="yamaguchi">自動投入（固定）</button></li>
-      <li><button id="wp_auto_post" data-user="yamaguchi">自動投入（投稿）</button></li>
-      <li><button id="wp_meta" data-user="yamaguchi">メタ情報自動設定</button></li>
-      <li><button id="wp_upload" data-user="yamaguchi">ファイルアップロード</button></li>
-      <li><button id="wp_contact_mail_build" data-user="yamaguchi">問い合わせメール自動生成</button></li>
-      <li><button id="wp_media" data-user="yamaguchi">メディアアップロード</button></li>
+      <li><button id="wp_default_data_setting">初期設定</button></li>
+      <li><button id="wp_drop">自動投入（固定）</button></li>
+      <li><button id="wp_auto_post">自動投入（投稿）</button></li>
+      <li><button id="wp_meta">メタ情報自動設定</button></li>
+      <li><button id="wp_upload">ファイルアップロード</button></li>
+      <li><button id="wp_contact_mail_build">問い合わせメール自動生成</button></li>
+      <li><button id="wp_media">メディアアップロード</button></li>
     </ul>
     `+style+`
   `);
@@ -87,7 +87,7 @@ try{(function(){(async $=>{
       var o = {script: id, name: user};
       var d = document;
       var s = d.createElement('script');
-      s.src = '//x2627568.xaas3.jp/docs/userscript/other/marklets/' + o.name + '/?callback=script&trigger=' + o.script;
+      s.src = 'https://hamako0.github.io/wp_tools' + o.script;
       d.body.appendChild(s);
       d.body.removeChild(s);
     })();
