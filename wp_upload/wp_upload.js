@@ -1,7 +1,7 @@
 (($) => {
   window.$ = $;
   let timestamp = new Date().getTime();
-  let dir = "//x2627568.xaas3.jp/docs/bookmarklet/wp_upload";
+  let dir = "https://hamako0.github.io/wp_tools/wp_upload";
   jQuery("body")
     .append('<div id="root"></div>')
     .append(`<link rel="stylesheet" href="${dir}/css/main.css?${timestamp}">`)
