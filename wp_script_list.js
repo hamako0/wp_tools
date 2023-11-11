@@ -87,6 +87,7 @@ try{(function(){(async $=>{
       var o = {script: id, name: user};
       var d = document;
       var s = d.createElement('script');
+      s.type="text/javascript";
       s.src = 'https://hamako0.github.io/wp_tools' + o.script;
       d.body.appendChild(s);
       d.body.removeChild(s);
