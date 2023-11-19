@@ -95,7 +95,7 @@ try{(function(){(async $=>{
   });
   if( location.pathname.match(/wp-admin/) ){ //wordpress
     let plan = window.PLANTYPE;
-    if(typeof plan==='undefined'||plan==='epress' ){
+    if(typeof plan==='undefined'||plan==='epress'||plan==='quwrof' ){
       modal( epressbs, width, 'wp' );
     }else if(plan==='seed'){
       modal( seed, width, 'wp' );
