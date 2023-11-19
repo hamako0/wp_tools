@@ -11829,7 +11829,7 @@
                                   S.ajax({
                                     type: "post",
                                     url: j,
-                                    data: { action: "epress_post_html" },
+                                    data: { action: "quwrof_post_html" },
                                   })
                                     .done(function (t) {
                                       return e(t);
@@ -11948,7 +11948,7 @@
                                               (y = !1),
                                               (e.t0 = A),
                                               (e.next =
-                                                "epress" === e.t0
+                                                "quwrof" === e.t0
                                                   ? 16
                                                   : "seed" === e.t0
                                                   ? 18
@@ -12078,7 +12078,7 @@
                                                     )),
                                               (e.t1 = A),
                                               (e.next =
-                                                "epress" === e.t1
+                                                "quwrof" === e.t1
                                                   ? 36
                                                   : "seed" === e.t1
                                                   ? 39
@@ -12359,7 +12359,7 @@
               value: function (e) {
                 var t = void 0;
                 switch (A) {
-                  case "epress":
+                  case "quwrof":
                     t = new RegExp(
                       "/(single-olivecart|archive-olivecart|archive|parts|single|contact|privacypolicy|policy)/"
                     );
@@ -12863,7 +12863,7 @@
                   type: "post",
                   url: j,
                   data: {
-                    action: "epress_post_html",
+                    action: "quwrof_post_html",
                     post_id: e.post_id,
                     post_content: e.content,
                   },
